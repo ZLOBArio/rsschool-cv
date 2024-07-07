@@ -1,30 +1,48 @@
-# Имя и фамилия
-Качанов Александр
+# First and Last Name
+Kachanau Aliaksandr
 
-# Контакты для связи
+# My Contact Info
 - Email: aleksandr.kachanov33@gmail.com
 - Телефон: +375255230087
 - LinkedIn: (https://www.linkedin.com/in/aleksandr-kachanov-b34aa1317/)
 - GitHub: [github.com/ZLOBArio](https://github.com/ZLOBArio)
 
-# Краткая информация о себе
-Я молодой и всегда идущий к цели Junior Front-End Developer. Нравится работать над интересными проектами. Хорошо коммуницирую. Всегда готов развиваться, а также быстро схватываю информацию.
+# Summary
+I am a young and always goal-oriented Junior Front-End Developer. I like working on interesting projects. I communicate well. I am always ready to develop and also quickly grasp information.
 
-### Навыки
-- Языки программирования: C#, JavaSrcipt, CSS3, HTML5
-- Фреймворки: React
-- Системы контроля версий: Git
-- Инструменты разработки: VS Code, WebStorm
+### Skills
+- Programming languages: C#, JavaScipt, CSS3, HTML5
+- Frameworks: React
+- Version control systems: Git
+- Development tools: VS Code, WebStorm
 
-### Примеры кода
-Примеры присуствуют на странице Git
-- green-corp-lending с курса по обучению верстки. Простая верстка по макету с применением CSS
-- Проект W2UP разработавшийся для Хакатона. Идея заключается в революционном решении для образовательных учереждений: Перевод оценок в систему очков за котрые можно будет получать вознаграждения.
-- Курсовая работа. Еще в процессе разработки. На данный момент есть сверстанный шаблон с работающими слайдерами.
-- Также некоторые проекты лежащие на ПК такие как: меню регестрации mail e.t.c.
+### Code examples
+```js
 
-### Образование 
-- ГГУ Ф. Скарыны 2 курс - КФ (Компьютерная физика)
+document.addEventListener('DOMContentLoaded', function () {
+  const loginButton = document.querySelector('.Login-header');
+  const logSection = document.querySelector('.Log');
+  const closeButton = logSection.querySelector('.close-btn');
+  const overlay = document.createElement('div');
 
-### Английский язык
-- B1
+  loginButton.addEventListener('click', function () {
+    logSection.classList.add('active');
+    document.body.classList.add('overlay');
+  });
+```
+Examples are available on the my Git page
+- green-corp-lending from the layout training course. Simple layout using CSS
+- The W2UP project developed for the Hackathon. The idea is a revolutionary solution for educational institutions: Converting grades into a points system for which it will be possible to receive rewards.
+- Course work. Still in development. At the moment there is a template with working sliders.
+- Also some projects lying on the PC such as: registration menu mail e.t.c.
+
+### Education 
+- GSU F. Skarynia 2nd year - CF (Computer Physics)
+
+### Languages
+- English
+- Russia
+- Belarusia
+
+  <br>
+[<img align="center" alt="rsschool" width="100px"  src="rs_school_js.svg" />](https://rs.school/courses/javascript-ru)
