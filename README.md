@@ -1,2 +1,2 @@
-- https://GITHUB-ZLOBArio.github.io/rsschool-cv/cv
-- https://GITHUB-ZLOBArio.github.io/rsschool-cv/
+- https://ZLOBArio.github.io/rsschool-cv/cv
+- https://ZLOBArio.github.io/rsschool-cv/
