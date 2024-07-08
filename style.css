@@ -1,3 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+
 body {
-    margin: auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434a54;
+    background-color: #f0f0f0;
+}
+
+
+.header {
+    margin-top: 50px;
+}
+
+.codex {
+    margin-left: 40px;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    font-size: 26px;
+}
+
+.sosial-links {
+    font-size: 26px;
+    color: rgba(67, 74, 84, 0.8);
+}
+
+
+.about__me {
+    margin-top: 50px;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    border-bottom: 1px solid #b2d3ff;
+}
+
+.title {
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+
+.about__summary p {
+    margin-bottom: 16px;
+}
+
+.about__info_items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__section {
+    margin-top: 50px;
+    padding: 0 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #9cc2f3;
+}
+
+/* == Skills Section ===  */
+
+.skills__item {
+
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #72ead0;
+    font-size: 18px;
+}
+
+
+.skills__item span {
+    margin-left: 450px;
+    font-weight: 900;
+}
+
+.skills__item a {
+    margin-left: 5px;
+}
+
+
+pre {
+    background-color: #c0cee2;
+}
+
+code {
+    font-weight: bold;
+}
+
+.code {
+    margin-top: 20px;
+}
+
+
+#education {
+    margin-top: 20px;
+    border-bottom: 1px solid #9cc2f3;
+}
+
+.education__header {
+    text-align: center;
+}
+
+.education__item {
+    text-align: center;
+}
+
+#languages {
+    margin-top: 20px;
+    border-bottom: 1px solid #9cc2f3;
+}
+
+.languages__skills {
+    text-align: center;
+}
+
+.languages__items {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.footer__img {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.author {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 1300px;
 }
