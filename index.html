@@ -4,10 +4,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kachanau Aliaksandr</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__top">
+            <h1 class="header__title">Kachanau Aliaksandr</h1>
+            <nav class="sosial-links">
+                <a href="https://www.linkedin.com/in/aleksandr-kachanov-b34aa1317/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/ZLOBArio"><i class="fab fa-github-square"></i></a>
+                <a href="kachanov.aleksandr33@gmail.com"><i class="fas fa-envelope"></i></a>
+            </nav>
+        </div>
+        </div>
+
+        <section class="about__me">
+            <div class="about__summary">
+                <h2 class="title">Summary</h2>
+                <p>
+                    I am a young and always goal-oriented Junior Front-End Developer. I like working on
+                    interesting projects. I communicate well. I am always ready to develop and also quickly
+                    grasp information.
+                </p>
+            </div>
+            <div class="about__info">
+                <ul class="about__info_items">
+                    <div class="age">
+                        <li>Age</li>
+                        <li>19</li>
+                    </div>
+                    <div class="email">
+                        <li>Email</li>
+                        <li>kachanov.aleksandr33@gmail.com</li>
+                    </div>
+                    <div class="phone">
+                        <li>Phone</li>
+                        <li>+375255230087</li>
+                    </div>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills__section" id="skills">
+            <div class="skills__header">
+                <h2 class="title">Professional Skills</h2>
+            </div>
+            <ul class="skills__items">
+                <li class="skills__item">
+                    <p class="p__skills"><span>Programming languages: C#, JavaScipt, CSS3, HTML5</span></p>
+                </li>
+                <li class="skills__item">
+                    <p class="p__skills"><span>Frameworks: React</p>
+                </li>
+                <li class="skills__item">
+
+                    <p class="p__skills"><span>Version control systems: Git</p>
+                </li>
+                <li class="skills__item">
+                    <p class="p__skills"><span>Development tools: VS Code, WebStorm</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="code section">
+            <div class="code__inner">
+                <h2 class="title codex">Code example</h2>
+                <pre>
+                            <code>
+                                <span class="code">document.addEventListener('DOMContentLoaded', function () {
+                                    const loginButton = document.querySelector('.Login-header');
+                                    const logSection = document.querySelector('.Log');
+                                    const closeButton = logSection.querySelector('.close-btn');
+                                    const overlay = document.createElement('div');
+                                  
+                                    loginButton.addEventListener('click', function () {
+                                      logSection.classList.add('active');
+                                      document.body.classList.add('overlay');
+                                    });
+                                    </span>
+                            </code>
+                          </pre>
+            </div>
+        </section>
+
+        <section class="educations section" id="education">
+            <div class="education__header">
+                <h2 class="title">Education</h2>
+            </div>
+            <ul class="education__items">
+                <li class="education__item">
+                    <p><span>GSU F. Skarynia 2nd year - CF (Computer Physics)</span></p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="languages section" id="languages">
+            <div class="languages__skills">
+                <h2 class="title">Languages</h2>
+            </div>
+            <ul class="languages__items">
+                <li class="lenguages__item">
+                    <i class="En"></i>
+                    <a><span>English</span></a>
+                </li>
+                <li class="languages__item">
+                    <i class="Russia"></i>
+                    <a><span>Russia</a>
+                </li>
+                <li class="lenguages__item">
+                    <i class="Bel"></i>
+                    <a><span>Belarusia</a>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer__img">
+                        <a href="https://rs.school/" target="_blank"><img src="img/rs_school_js.svg"
+                                alt="rs_school_js" /></a>
+                    </div>
+                    <div class="author">
+                        <p>Aliaksandr Kachanau</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 </body>
 
