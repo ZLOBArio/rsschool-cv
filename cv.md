@@ -8,36 +8,47 @@ Kachanau Aliaksandr
 - GitHub: [github.com/ZLOBArio](https://github.com/ZLOBArio)
 
 # Summary
-I am a young and always goal-oriented Junior Front-End Developer. I like working on interesting projects. I communicate well. I am always ready to develop and also quickly grasp information.
+I am a young and ever-motivated Junior JS Developer/Frontend Developer. I like to work on interesting projects. I communicate well. I am always ready to develop and also quickly grasp information. I am also eager to learn. I will always be glad to gain experience. 
 
 ### Skills
 - Programming languages: C#, JavaScipt, CSS3, HTML5
-- Frameworks: React
+- Frameworks: In the process of learning React
 - Version control systems: Git
 - Development tools: VS Code, WebStorm
 
 ### Code examples
 ```js
+filterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        changeFilterBtn();
+        btn.classList.add('btn-active');
+        let filterID = btn.id;
 
-document.addEventListener('DOMContentLoaded', function () {
-  const loginButton = document.querySelector('.Login-header');
-  const logSection = document.querySelector('.Log');
-  const closeButton = logSection.querySelector('.close-btn');
-  const overlay = document.createElement('div');
-
-  loginButton.addEventListener('click', function () {
-    logSection.classList.add('active');
-    document.body.classList.add('overlay');
-  });
+        filterImgs.forEach((img) => {
+            if (img.classList.contains(filterID)) {
+                img.style.display = "block";
+                window.setTimeout(() => {
+                    img.style.opacity = '1';
+                    img.style.transform = 'scale(1)';
+                }, 0);
+            } else {
+                img.style.opacity = '0';
+                img.style.transform = 'scale(0)';
+                window.setTimeout(() => {
+                    img.style.display = "none";
+                }, 0);
+            }
+        });
+    });
 ```
 Examples are available on the my Git page
 - green-corp-lending from the layout training course. Simple layout using CSS
-- The W2UP project developed for the Hackathon. The idea is a revolutionary solution for educational institutions: Converting grades into a points system for which it will be possible to receive rewards.
+- The W2UP project developed for the Modsen Hackathon. The idea is a revolutionary solution for educational institutions: Converting grades into a points system for which it will be possible to receive rewards.
 - Course work. Still in development. At the moment there is a template with working sliders.
 - Also some projects lying on the PC such as: registration menu mail e.t.c.
 
 ### Education 
-- GSU F. Skarynia 2nd year - CF (Computer Physics)
+- GSU F. Skarynia 3nd year - CF (Computer Physics)
 
 ### Languages
 - English
